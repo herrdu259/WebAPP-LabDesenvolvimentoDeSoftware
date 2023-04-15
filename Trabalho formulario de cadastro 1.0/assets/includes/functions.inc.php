@@ -81,7 +81,7 @@ function createUser($conn, $firstname, $lastname, $email, $password, $confirmpas
 
 /* Função para verificar se os todos os campos foram preenchidos com algo */
 function loginVazio($email, $password) {
-    $result
+    $result;
     if (empty($email) || empty($password)) {
         $result = true;
     }
