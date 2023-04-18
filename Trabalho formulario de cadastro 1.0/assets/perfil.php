@@ -27,7 +27,7 @@
         <div class="form">
             <form action="includes\registro.inc.php" method="post">
 
-                <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... -->
+                <!-- Div classe input-group que contem todos os itens de perfil nome, sobrenome, etc... -->
                 <div class="input-group">
                     <div class="input-box">
                         <label for="firstname">Nome</label>

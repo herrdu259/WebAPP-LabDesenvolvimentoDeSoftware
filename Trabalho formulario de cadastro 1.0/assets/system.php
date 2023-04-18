@@ -11,13 +11,15 @@
 
 <body>
 
+
+    <!-- Menu de navegação horizontal superior -->
     <nav class="menu-h">
         <ul>
             <li><a href="system.php">Início</a></li>
             <li><a href="#">Grupos</a></li>
             <li><a href="#">Friends</a></li>
             <li><a href="perfil.php">Perfil</a></li>
-            <li><a href="login.php">Sair</a></li>
+            <li><a href="sair.php">Sair</a></li>
         </ul>
     </nav>
 
