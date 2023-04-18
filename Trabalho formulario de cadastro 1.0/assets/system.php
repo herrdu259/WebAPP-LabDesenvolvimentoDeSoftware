@@ -16,7 +16,7 @@
             <li><a href="system.php">Início</a></li>
             <li><a href="#">Grupos</a></li>
             <li><a href="#">Friends</a></li>
-            <li><a href="#">Perfil</a></li>
+            <li><a href="perfil.php">Perfil</a></li>
             <li><a href="login.php">Sair</a></li>
         </ul>
     </nav>
