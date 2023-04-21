@@ -35,39 +35,36 @@
                     </div>
 
                     <div class="input-box">
-                        <label for="firstname">Nome</label>
-                        <input id="firtname" type="text" name="firstname" placeholder="" required>
+                        <label for="firstname"></label>
+                        <input id="firtname" type="text" name="firstname" placeholder="Nome" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="lastname">Sobrenome</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="" required>
+                        <label for="lastname"></label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Sobrenome" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="document">Documento</label>
-                        <input id="document" type="text" name="document" placeholder="Digite seu Documento" required>
+                        <label for="document"></label>
+                        <input id="document" type="text" name="document" placeholder="Documento" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="phone">Telefone</label>
-                        <input id="phone" type="text" name="phone" placeholder="Digite seu Telefone" required>
+                        <label for="phone"></label>
+                        <input id="phone" type="text" name="phone" placeholder="Telefone" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="gender">Genêro</label>
-                        <input id="gender" type="text" name="gender" placeholder="" required>
+                        <label for="gender"></label>
+                        <input id="gender" type="text" name="gender" placeholder="Genêro" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="college">Instituição de ensino</label>
-                        <input id="college" type="text" name="college" placeholder="" required>
+                        <label for="college"></label>
+                        <input id="college" type="text" name="college" placeholder="Instituição" required>
                     </div>
                 </div>
-
-
-                </form>
-            </div>
+            </form>
         </div>
     </div>
 

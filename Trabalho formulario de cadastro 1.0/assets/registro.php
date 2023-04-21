@@ -23,7 +23,7 @@
                 <!-- Código que contém os botões para ir até a pagina de Login -->
                 <div class="form-header">
                     <div class="tittle">
-                        <h1>Cadastre-se</h1>
+                        <h1>Á_ThA</h1>
                     </div>
                     <div class="login-button">
                         <button><a href="login.php">Entrar</a></button>
@@ -34,33 +34,33 @@
                 <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... -->
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="firstname">Primeiro Nome</label>
-                        <input id="firtname" type="text" name="firstname" placeholder="Digite o seu primeiro nome" required>
+                        <label for="firstname"></label>
+                        <input id="firtname" type="text" name="firstname" placeholder="Nome" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="lastname">sobrenome</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome" required>
+                        <label for="lastname"></label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Sobrenome" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        <label for="email"></label>
+                        <input id="email" type="email" name="email" placeholder="Email" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        <label for="college"></label>
+                        <input id="college" type="text" name="college" placeholder="Instituição" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="confirmpassword">Confirme a senha</label>
-                        <input id="confirmpassword" type="password" name="confirmpasswor" placeholder="Confirme a sua senha" required>
+                        <label for="password"></label>
+                        <input id="password" type="password" name="password" placeholder="Senha" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="college">Instituição de ensino</label>
-                        <input id="college" type="text" name="college" placeholder="Digite a sua instituição de ensino" required>
+                        <label for="confirmpassword"></label>
+                        <input id="confirmpassword" type="password" name="confirmpasswor" placeholder="Confirme senha" required>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@
 
                 <!-- Div para o botão continuar -->
                 <div class="continue-button">
-                    <button name="submit"><a href="#">Continuar</a></button>
+                    <button name="submit"><a href="#">Cadastrar</a></button>
                 </div>
             </form>
                 <!-- Tratativa de possiveis erros -->

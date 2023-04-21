@@ -23,7 +23,7 @@
                 <!-- Código que contém os botões para ir até a pagina de Registro -->
                 <div class="form-header">
                     <div class="tittle">
-                        <h1>Entre</h1>
+                        <h1>Á_ThA</h1>
                     </div>
                     <div class="login-button">
                         <button><a href="registro.php">Cadastre-se</a></button>
@@ -34,19 +34,19 @@
                 <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... -->
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        <label for="email"></label>
+                        <input id="email" type="email" name="email" placeholder="Email" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        <label for="password"></label>
+                        <input id="password" type="password" name="password" placeholder="Senha" required>
                     </div>
                 </div>
 
                 <!-- Div para o botão continuar -->
                 <div class="continue-button">
-                    <button><a href="#">Continuar</a></button>
+                    <button><a href="#">Entrar</a></button>
                 </div>
             </form>
             <!-- Tratativa de possiveis erros -->
