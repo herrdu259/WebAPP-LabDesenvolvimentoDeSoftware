@@ -30,6 +30,11 @@
                 <!-- Div classe input-group que contem todos os itens de perfil nome, sobrenome, etc... -->
                 <div class="input-group">
                     <div class="input-box">
+                        <label for="img"></label>
+                        <input id="img" type="jpeg" name="img" placeholder="Insira uma imagem" required>
+                    </div>
+
+                    <div class="input-box">
                         <label for="firstname">Nome</label>
                         <input id="firtname" type="text" name="firstname" placeholder="" required>
                     </div>
