@@ -22,7 +22,7 @@
                 <!-- Código que contém os botões para ir até a pagina de Login -->
                 <div class="form-header">
                     <div class="tittle">
-                        <h1>Á_ThA</h1>
+                        <h1>Cadastro</h1>
                     </div>
                     <div class="login-button">
                         <button><a href="login.php">Entrar</a></button>
