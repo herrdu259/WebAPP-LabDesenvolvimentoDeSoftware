@@ -8,7 +8,6 @@
     <title>Formulário de Cadastro</title>
 </head>
 
-
 <body>
     <!-- Div para inserir a imagem na tela -->
     <div class="container">
@@ -16,10 +15,10 @@
             <img src="img/undraw_team_collaboration_re_ow29.svg">
         </div>
 
-
         <!-- Div classe form contém todo o formulario de Login -->
         <div class="form">
             <form action="includes/login.inc.php" method="post">
+
                 <!-- Código que contém os botões para ir até a pagina de Registro -->
                 <div class="form-header">
                     <div class="tittle">
@@ -29,7 +28,6 @@
                         <button><a href="registro.php">Cadastre-se</a></button>
                     </div>
                 </div>
-
 
                 <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... -->
                 <div class="input-group">
@@ -43,12 +41,14 @@
                         <input id="password" type="password" name="password" placeholder="Senha" required>
                     </div>
                 </div>
+            </form>
 
                 <!-- Div para o botão continuar -->
                 <div class="continue-button">
                     <button><a href="#">Entrar</a></button>
                 </div>
-            </form>
+
+            
             <!-- Tratativa de possiveis erros -->
                 <?php
                     if (isset($_GET["error"])) {

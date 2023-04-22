@@ -8,7 +8,6 @@
     <title>Formulário de Cadastro</title>
 </head>
 
-
 <body>
     <!-- Div para inserir a imagem na tela -->
     <div class="container">
@@ -16,10 +15,10 @@
             <img src="img/undraw_team_collaboration_re_ow29.svg">
         </div>
 
-
         <!-- Div form contém todo o formulario de registro -->
         <div class="form">
             <form action="includes\registro.inc.php" method="post">
+
                 <!-- Código que contém os botões para ir até a pagina de Login -->
                 <div class="form-header">
                     <div class="tittle">
@@ -29,7 +28,6 @@
                         <button><a href="login.php">Entrar</a></button>
                     </div>
                 </div>
-
 
                 <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... -->
                 <div class="input-group">
@@ -63,40 +61,14 @@
                         <input id="confirmpassword" type="password" name="confirmpasswor" placeholder="Confirme senha" required>
                     </div>
                 </div>
-
-                    <!-- Div separada para o genero -->
-                    <div class="gender-inputs">
-                        <h6>Gênero</h6>
-                    </div>
-
-                    <div class="gender-group">
-                        <div class="gender-input">
-                            <input type="radio" id="female" name="gender">
-                            <label for="female">Feminino</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="male" name="gender">
-                            <label for="male">Masculino</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="other" name="gender">
-                            <label for="other">Outros</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input type="radio" id="none" name="gender">
-                            <label for="none">Prefiro não dizer</label>
-                        </div>
-                    </div>
-                
+            </form>
 
                 <!-- Div para o botão continuar -->
                 <div class="continue-button">
                     <button name="submit"><a href="#">Cadastrar</a></button>
                 </div>
-            </form>
+
+            
                 <!-- Tratativa de possiveis erros -->
                 <?php
                     if (isset($_GET["error"])) {
