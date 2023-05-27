@@ -76,12 +76,6 @@ header {
 
 
 
-
-
-
-
-
-
 .form-image {
     width: 50%;
     display: flex;
@@ -94,12 +88,38 @@ header {
     width: 11rem;
 }
 
+.form-image2 {
+    float: left;
+  }
+
+.form-image2 {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form-image2 img {
+    width: 11rem;
+}  
+
+
 .form {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     padding: 3rem;
 }
@@ -119,6 +139,31 @@ header {
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
+}
+
+.form-header2 {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: left;
+}
+
+.form-header2 h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #f24b4b;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 0;
 }
 
 .input-group {

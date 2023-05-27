@@ -18,13 +18,16 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="index.php" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="grupo.php" class="nav-link">Grupos</a></li>
-                    <li class="nav-item"><a href="amigo.php" class="nav-link">Amigos</a></li>
+                    <li class="nav-item"><a href="system.php" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Grupos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Amigos</a></li>
                     <li class="nav-item"><a href="perfil.php" class="nav-link">Perfil</a></li>
                     <li class="nav-item"><a href="sair.php" class="nav-link"> Sair</a></li>
                 </ul>
             </div>
+            <?php
+                if (isset($_SESSION["useruid"]))
+            ?>
             <div class="login-button">
                 <button><a href="login.php">Entrar</a></button>
                 <button><a href="registro.php">Cadastre-se</a></button>
@@ -34,7 +37,6 @@
                 <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
             </div>
         </nav>
-        
         <div class="mobile-menu">
             <ul>
                     <li class="nav-item"><a href="index.php" class="nav-link">Início</a></li>
@@ -51,46 +53,68 @@
         </div>
     </header>
     <script src="assets/js/script.js"></script>
-    
 
 
-    <!-- Pagina de perfil -->
+    <!-- Pagina de grupos -->
+
     <div>
-        <!-- Div form contém todo o formulario de registro -->
-        <div class="form">
+        <!-- Div form -->
+        <div class="form2">
             <form action="includes\registro.inc.php" method="post">
-                <!-- Código que contém os botões para ir até a pagina de Login -->
-                <div class="form-header">
+
+                <!-- -->
+                <div class="form-header2">
                     <div class="tittle">
-                        <h1>Perfil</h1>
+                        <h1>Grupos</h1>
                     </div>
                 </div>
 
-                <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... -->
-                <div class="input-group">
-                    <div class="form-image">
+                <!-- ... -->
+                <div class="form-group">
+                    <div class="form-image2">
                         <img src="img/undraw_teacher_re_sico.svg">
                     </div>
-                    <div>
-                    <div class="input-box">
-                        <label for="name">Nome: Andre Rohw</label>
-                    </div>
-                    
-                    <div class="input-box">
-                        <label for="email">Email: teste@gmail.com</label>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="college">Instituição de Ensino: Fatec</label>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="gender">Sexo: Masculino</label>
-                    </div>
+                    <div class="input-group">
+                        <div class="group-tittle">
+                            <h2>Grupos1</h2>
+                        </div>
+                        <div class="input-box">
+                        <label for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</label>
+                        </div>
                     </div>
                 </div>
+                <!-- ... -->
+                <div class="form-group">
+                    <div class="form-image2">
+                        <img src="img/undraw_teacher_re_sico.svg">
+                    </div>
+                    <div class="input-group">
+                        <div class="group-tittle">
+                            <h2>Grupos1</h2>
+                        </div>
+                        <div class="input-box">
+                        <label for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- ... -->
+                <div class="form-group">
+                    <div class="form-image2">
+                        <img src="img/undraw_teacher_re_sico.svg">
+                    </div>
+                    <div class="input-group">
+                        <div class="group-tittle">
+                            <h2>Grupos1</h2>
+                        </div>
+                        <div class="input-box">
+                        <label for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</label>
+                        </div>
+                    </div>
+                </div>
+                
     </div>
 
+    
 
 
     <footer>
@@ -120,5 +144,6 @@
             2023 todos os direitos reservados.
         </div>
     </footer>
+
 </body>
 </html>

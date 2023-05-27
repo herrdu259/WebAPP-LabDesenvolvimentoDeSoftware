@@ -47,6 +47,9 @@ body {
 
 .form-header {
     margin-bottom: 3rem;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+
     display: flex;
     justify-content: space-between;
 }
@@ -132,11 +135,11 @@ body {
 }
 
 .gender-group {
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
-    margin-left: 0.6rem;
-    margin-top: 0.62rem;
-    padding: 0 .5rem;
+    margin: 1.1rem;
 }
 
 .gender-input {
@@ -150,13 +153,12 @@ body {
 
 .gender-input label {
     font-size: 0.81rem;
-    font-weight: 600;
     color: #000000c0;
     
 }
 
 .continue-button button {
-    width: 100%;
+    width: 100px;
     margin-top: 2.5rem;
     border: none;
     background-color: #f24b4b;
@@ -176,9 +178,11 @@ body {
     color: #fff;
 }
 
-.login-button {
+.login-button button a {
     display: flex;
     justify-content: center;
+    width: 80px;
+
 }
 
 @media screen and (max-width: 1330px) {

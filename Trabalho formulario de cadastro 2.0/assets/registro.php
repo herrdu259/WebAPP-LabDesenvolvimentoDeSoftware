@@ -34,42 +34,44 @@
                 <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... -->
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="firstname">Primeiro Nome</label>
-                        <input id="firtname" type="text" name="firstname" placeholder="Digite o seu primeiro nome" required>
+                        <label for="firstname"></label>
+                        <input id="firtname" type="text" name="firstname" placeholder="Nome" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="lastname">sobrenome</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Digite o seu sobrenome" required>
+                        <label for="lastname"></label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Sobrenome" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        <label for="email"></label>
+                        <input id="email" type="email" name="email" placeholder="Email" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                        <label for="password"></label>
+                        <input id="password" type="password" name="password" placeholder="Senha" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="confirmpassword">Confirme a senha</label>
-                        <input id="confirmpassword" type="password" name="confirmpasswor" placeholder="Confirme a sua senha" required>
+                        <label for="confirmpassword"></label>
+                        <input id="confirmpassword" type="password" name="confirmpasswor" placeholder="Confirmar senha" required>
                     </div>
 
                     <div class="input-box">
-                        <label for="college">Instituição de ensino</label>
-                        <input id="college" type="text" name="college" placeholder="Digite a sua instituição de ensino" required>
+                        <label for="college"></label>
+                        <input id="college" type="text" name="college" placeholder="instituição de ensino" required>
                     </div>
-                </div>
 
-                    <!-- Div separada para o genero -->
+                    <!-- Div separada para o genero 
                     <div class="gender-inputs">
                         <h6>Gênero</h6>
-                    </div>
+                    </div> -->
 
                     <div class="gender-group">
+
+                        
+
                         <div class="gender-input">
                             <input type="radio" id="female" name="gender">
                             <label for="female">Feminino</label>
@@ -91,12 +93,18 @@
                         </div>
                     </div>
 
+                </div>
+
+                    
+
+                
+            </form>
 
                 <!-- Div para o botão continuar -->
                 <div class="continue-button">
                     <button name="submit"><a href="registroTrue.php">Continuar</a></button>
                 </div>
-            </form>
+
                 <!-- Tratativa de possiveis erros -->
                 <?php
                     if (isset($_GET["error"])) {

@@ -39,9 +39,9 @@
         </nav>
         <div class="mobile-menu">
             <ul>
-                    <li class="nav-item"><a href="system.php" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Grupos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Friends</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="grupo.php" class="nav-link">Grupos</a></li>
+                    <li class="nav-item"><a href="amigo.php" class="nav-link">Friends</a></li>
                     <li class="nav-item"><a href="perfil.php" class="nav-link">Perfil</a></li>
                     <li class="nav-item"><a href="sair.php" class="nav-link"> Sair</a></li>
             </ul>
