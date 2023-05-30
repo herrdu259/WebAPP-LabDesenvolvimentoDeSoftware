@@ -57,7 +57,7 @@
     <!-- Pagina de perfil -->
     <div>
         <!-- Div form contém todo o formulario de registro -->
-        <div class="form">
+        <div class="form2">
             <form action="includes\registro.inc.php" method="post">
                 <!-- Código que contém os botões para ir até a pagina de Login -->
                 <div class="form-header">
@@ -66,7 +66,61 @@
                     </div>
                 </div>
 
-                <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... -->
+                <!-- ... -->
+                <div class="form-group">
+                    <div class="form-image2">
+                        <img src="img/undraw_teacher_re_sico.svg">
+                    </div>
+                    <div class="input-group">
+                        <div class="group-tittle">
+                            <h2>Email</h2>
+                        </div>
+                        <div class="input-box">
+                        <p for="#">''</p>
+                        </div>
+                        
+                    </div>
+                    <div class="input-group">
+                        <div class="group-tittle">
+                            <h2>Instituição de Ensino</h2>
+                        </div>
+                        <div class="input-box">
+                        <p for="#">''</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <!-- ... -->
+                <div class="form-group2">
+                    
+                    <div class="input-group2">
+                        <div class="group-tittle">
+                            <h2>Nome</h2>
+                        </div>
+                        <div class="input-box">
+                        <p for="#">''</p>
+                        </div>                        
+                    </div>
+                    <div class="input-group3">
+                        <div class="group-tittle">
+                            <h2>Sobrenome</h2>
+                        </div>
+                        <div class="input-box">
+                        <p for="#">''</p>
+                        </div>                        
+                    </div> 
+                    <div class="input-group3">
+                        <div class="group-tittle">
+                            <h2>Biografia</h2>
+                        </div>
+                        <div class="input-box">
+                        <p for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</p>
+                        </div>                        
+                    </div>                     
+                </div>
+
+                <!-- Div classe input-group que contem todos os itens do cadastro como nome, usuario, senha, email, etc... 
                 <div class="input-group">
                     <div class="form-image">
                         <img src="img/undraw_teacher_re_sico.svg">
@@ -88,7 +142,8 @@
                         <label for="gender">Sexo: Masculino</label>
                     </div>
                     </div>
-                </div>
+                </div>-->
+            </div>
     </div>
 
 

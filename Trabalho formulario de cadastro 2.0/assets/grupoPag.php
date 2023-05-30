@@ -65,7 +65,7 @@
                 <!-- -->
                 <div class="form-header2">
                     <div class="tittle">
-                        <h1>Grupos</h1>
+                        <h1>Página do Grupo</h1>
                     </div>
                 </div>
 
@@ -76,62 +76,38 @@
                     </div>
                     <div class="input-group">
                         <div class="group-tittle">
-                            <h2>Grupos1</h2>
+                            <h2>Descrição</h2>
                         </div>
                         <div class="input-box">
                         <p for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</p>
                         </div>
+                        
                     </div>
-                </div>
-
-                    <!-- Div para o botão continuar -->
-                    <div class="continue-button2">
-                        <button><a href="grupoPag.php">
-                            <!-- ... -->
-                            <div class="form-group">
-                                <div class="form-image2">
-                                    <img src="img/undraw_teacher_re_sico.svg">
-                                </div>
-                                <div class="input-group">
-                                    <div class="group-tittle">
-                                        <h2>Grupos1</h2>
-                                    </div>
-                                    <div class="input-box">
-                                    <p for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a></button>
-                    </div>
-
-                <!-- ... -->
-                <div class="form-group">
-                    <div class="form-image2">
-                        <img src="img/undraw_teacher_re_sico.svg">
-                    </div>
-                    <div class="input-group">
-                        <div class="group-tittle">
-                            <h2>Grupos1</h2>
-                        </div>
-                        <div class="input-box">
-                        <p for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</p>
-                        </div>
+                    <div class="login-button2">
+                        <button><a href="#">Entrar</a></button>
+                        <button><a href="#">Sair</a></button>
                     </div>
                 </div>
                 <!-- ... -->
-                <div class="form-group">
-                    <div class="form-image2">
-                        <img src="img/undraw_teacher_re_sico.svg">
-                    </div>
-                    <div class="input-group">
+                <div class="form-group2">
+                    
+                    <div class="input-group2">
                         <div class="group-tittle">
-                            <h2>Grupos1</h2>
+                            <h2>Integrantes</h2>
                         </div>
                         <div class="input-box">
                         <p for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</p>
-                        </div>
+                        </div>                        
                     </div>
-                </div>
+                    <div class="input-group3">
+                        <div class="group-tittle">
+                            <h2>Chat</h2>
+                        </div>
+                        <div class="input-box">
+                        <p for="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facilis iste iure, quam, tempore fugiat autem inventore saepe vitae a optio qui. Dolores, rem! Architecto eius soluta delectus quis.</p>
+                        </div>                        
+                    </div>                     
+                </div>                                    
             </form>
         </div>        
     </div>

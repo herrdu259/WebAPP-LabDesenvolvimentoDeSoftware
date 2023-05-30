@@ -115,13 +115,59 @@ header {
     padding: 3rem;
 }
 
+.continue-button2 {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.continue-button2 button:hover {
+    background-color: #eee9e9f1;
+}
+
+.continue-button2 a {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
 .form2 {
     width: 50%;
+    margin-left: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
     padding: 3rem;
+}
+
+.login-button2 button {
+    border: none;
+    margin: 0.6rem;
+    width: 70px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #dfbebe;
+}
+
+.login-button2 button a {
+    text-decoration: none;
+    color: #030303;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.form-group2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.group-tittle {
+    margin-left: 1.1rem;
 }
 
 .form-header {
@@ -162,7 +208,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 1rem 0;
 }
 
